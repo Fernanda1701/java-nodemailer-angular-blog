@@ -1,0 +1,25 @@
+<div class="container mb-5">
+  <h1 class="mt-5 mb-5">Entre em contato conosco</h1>
+
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="text" [(ngModel)]='nomeRem' class="form-control" id="nome" placeholder="Digite seu nome">
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" [(ngModel)]='emailRem' class="form-control" id="email" placeholder="name@example.com">
+  </div>
+
+  <div class="form-group">
+    <label for="mensagem">Mensagem</label>
+    <textarea [(ngModel)]='mensagemRem' class="form-control" id="mensagem" rows="3"></textarea>
+  </div>
+
+  <button class="btn btn-outline-danger" (click)='enviar()'>Enviar</button>
+
+  <div *ngIf="isShown" class="alert alert-success margin" role="alert">
+    Email enviado com sucesso 💌!
+  </div>
+
+</div>
