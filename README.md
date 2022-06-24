@@ -80,7 +80,7 @@ Após tudo inicializado podemos cadastrar mensagens no feed, pesquisa-las por no
 - [Maven](https://maven.apache.org/) 4.0.0
 - [Spring Boot](https://spring.io/projects/spring-boot) 2.5.6
 - [H2](https://www.h2database.com/html/main.html)
-- Versionamento de código no [GitHub](https://github.com/)
+- Versionamento de código no [Git](https://git-scm.com/)
 
 
 ### Dependências:
